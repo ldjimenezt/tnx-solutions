@@ -1,12 +1,12 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 
-const popinsFont = Poppins({ weight: ['400', '600', '700'], subsets: ['latin'] })
+const montserratFont = Montserrat({ weight: ['400', '600', '700'], subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bank Website | TarreDev 💸 ',
-  description: 'Follow me for more!',
+  title: 'Tech Next Solutions - Leading IT Solutions and Services Provider',
+  description: 'Tech Next Solutions ofrece servicios de IT de primer nivel, incluyendo desarrollo de software, aplicaciones web, infraestructura de redes y ciberseguridad. ¡Mejora tu negocio con nuestras soluciones innovadoras!',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={popinsFont.className}>{children}</body>
+      <body className={montserratFont.className}>{children}</body>
     </html>
   )
 }

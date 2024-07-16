@@ -20,10 +20,6 @@ export const dataPaymentMethods = [
     image: "payment-5.png",
   },
   {
-    id: 6,
-    image: "payment-6.png",
-  },
-  {
     id: 7,
     image: "payment-7.png",
   },
@@ -31,4 +27,14 @@ export const dataPaymentMethods = [
     id: 8,
     image: "payment-8.png",
   },
+  {
+    id: 9,
+    image: "payment-9.png",
+  },
+  {
+    id: 10,
+    image: "payment-10.png",
+  },
+  
+  
 ];

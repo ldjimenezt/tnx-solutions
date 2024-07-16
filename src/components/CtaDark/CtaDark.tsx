@@ -12,11 +12,11 @@ export function CtaDark() {
                             <h3 className="text-3xl font-bold">Ven a probar nuestros servicios</h3>
                         </Reveal>
                         <Reveal>
-                            <p>Todo lo que necesitas para aceptar pagos con tarjeta y haga crecer su negocio en cualquier parte del planeta</p>
+                            <p>¿Listo para llevar tu empresa al siguiente nivel? Ven y prueba nuestros servicios para experimentar de primera mano cómo podemos ayudarte a alcanzar tus objetivos.</p>
                         </Reveal>
                     </div>
 
-                    <Link href="#" className="px-4 py-3 mx-auto rounded-md bg-blueRadial">
+                    <Link href="#" className="px-4 py-3 mx-auto rounded-md border border-transparent bg-blueRadial hover:bg-none hover:border-secondary">
                         <Reveal>
                             Empieza ahora
                         </Reveal>
