@@ -1,6 +1,6 @@
 import { BestBusiness } from "@/components/BestBusiness";
 import { ChooseYourCards } from "@/components/ChooseYourCards";
-import { Contact } from "@/components/Contact/Contact";
+import { Contact } from "@/components/Contact";
 import { ControlBilling } from "@/components/ControlBilling";
 import { CounterData } from "@/components/CounterData";
 import { FirstBlock } from "@/components/FirstBlock";
@@ -20,7 +20,7 @@ export default function Home() {
       <ControlBilling />
       <Testimonials />
       <PaymentsMethods />
-      <Contact />
+      
       <Footer />
     </>
   )

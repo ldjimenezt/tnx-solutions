@@ -1,15 +1,15 @@
 "use client"
 import 'swiper/css'
-import { BackgroundRadialRight } from '../BackgroundRadialRight'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { dataPaymentMethods } from './PaymentMethods.data'
 import Image from 'next/image'
 import { CtaDark } from '../CtaDark'
+import { BackgroundRadialLeft } from '../BackgroundRadialLeft'
 
 export function PaymentsMethods() {
     return (
         <div className="relative p-4 py-10 md:py-40" id="servicios">
-            <BackgroundRadialRight />
+            <BackgroundRadialLeft />
             <div className="relative w-full overflow-hidden">
                 <Swiper
                     breakpoints={{
