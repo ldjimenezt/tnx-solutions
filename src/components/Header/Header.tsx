@@ -25,8 +25,8 @@ export function Header() {
                             </div>
                         ))}
                         <div className="flex space-x-4 mt-4 md:mt-0">
-                            <Link href="/login" className="px-4 py-2 text-lg text-white border border-secondary rounded hover:bg-blueRadial">Login</Link>
-                            <Link href="/signup" className="px-4 py-2 text-lg text-white border border-transparent rounded bg-blueRadial hover:bg-none hover:border-secondary">Sign Up</Link>
+                            <Link href="https://dashboard-tnx.netlify.app/sign-in?redirect_url=https%3A%2F%2Fdashboard-tnx.netlify.app%2F" className="px-4 py-2 text-lg text-white border border-secondary rounded hover:bg-blueRadial">Login</Link>
+                            <Link href="https://dashboard-tnx.netlify.app/sign-in?redirect_url=https%3A%2F%2Fdashboard-tnx.netlify.app%2F" className="px-4 py-2 text-lg text-white border border-transparent rounded bg-blueRadial hover:bg-none hover:border-secondary">Sign Up</Link>
                             
                             
                     

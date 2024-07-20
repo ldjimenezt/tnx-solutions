@@ -20,7 +20,7 @@ export default function Home() {
       <ControlBilling />
       <Testimonials />
       <PaymentsMethods />
-      
+      <Contact />
       <Footer />
     </>
   )
