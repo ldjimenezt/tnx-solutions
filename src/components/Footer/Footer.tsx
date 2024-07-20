@@ -38,7 +38,7 @@ export function Footer() {
                 </div>
                 <div className="flex gap-5 ">
                     {footerSocialNetworks.map(({ id, icon, link }) => (
-                        <Link key={id} href={link} className="text-2xl hover:text-secondary">
+                        <Link target="_blank" rel="noopener noreferrer" key={id} href={link} className="text-2xl hover:text-secondary">
                             {icon}
                         </Link>
                     ))}
