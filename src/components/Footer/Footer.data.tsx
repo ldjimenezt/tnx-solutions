@@ -85,12 +85,12 @@ export const footerSocialNetworks = [
   {
     id: 1,
     icon: <RiInstagramLine />,
-    link: "#"
+    link: "https://www.instagram.com/technexsolution2024/"
   },
   {
     id: 2,
     icon: <RiFacebookCircleFill />,
-    link: "#"
+    link: "https://www.facebook.com/profile.php?id=61562496733888"
   },
   {
     id: 3,
